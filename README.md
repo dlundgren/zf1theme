@@ -1,5 +1,7 @@
 # Zend Framework 1 Theme manager extension
 
+[![Travis CI](https://secure.travis-ci.org/dlundgren/zf1theme.png)](https://travis-ci.org/dlundgren/zf1theme) [![Code Climate](https://codeclimate.com/github/dlundgren/zf1theme/badges/gpa.svg)](https://codeclimate.com/github/dlundgren/zf1theme)
+
 A way to manage themes for a Zend Framework 1 project.
 
 The goal is to store all of the themes in one location to make it easier to locate views, layouts, helpers, and assets for a theme instead of them being located in multiple different directories

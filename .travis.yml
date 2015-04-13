@@ -4,8 +4,14 @@ php:
   - 5.4
   - 5.5
   - 5.6
+  
+addons:
+  code_climate:
+    repo_token: 2c0ee56f508e2a62d76383b33d7914332d1548baeacfa6d14362f657120c80aa
 
 install:
   - composer self-update
   - composer install --dev
-script: phpunit
+script: phpunit --coverage-clover build/logs/clover.xml
+after_script:
+  - vendor/bin/test-reporter
